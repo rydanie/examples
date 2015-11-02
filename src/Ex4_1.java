@@ -10,7 +10,6 @@
  */
 public class Ex4_1 {
 
-	error on purpose!!!!
     /**
      * @param args the command line arguments
      */
