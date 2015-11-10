@@ -30,10 +30,10 @@ public class Ex6_2 {
         Contact() {
         }
         
-        public void setLastName( String n ) {
+        public void setLastName( String n ) {// regular expression
             
-            if( !n.matches("^[A-Za-z]+$") ) {
-                System.out.println( "Invalid characters in last name" );
+            if( !n.matches("^[A-Za-z]+$") ) {// if it doesn't equal a-z print
+                System.out.println( "Invalid characters in last name" );// input validation
             } else {
                 lName = n;
             }
@@ -55,7 +55,7 @@ public class Ex6_2 {
         }
         /*
          * Name (first, last, middle)
-         * Prefix
+         * Prefix (Mr/Dr/Mrs)
          * Phone number
          * email
          * address (street, city, state, zip)
