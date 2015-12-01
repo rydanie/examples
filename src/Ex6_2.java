@@ -40,7 +40,7 @@ public class Ex6_2 {
         }
         public String getLastName() {
             return lName;
-        }
+        }    
         public void setFirstName( String n ) {
             fName = n;
         }
@@ -65,11 +65,11 @@ public class Ex6_2 {
         private String prefix;
         private String phone;
         private String email;
-        private String street, city, state, zip;
+        private String street, city, state, zip; 
         private String occupation;
         
         
-        
+                                                                                            
     }
     
 }

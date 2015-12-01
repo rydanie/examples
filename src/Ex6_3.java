@@ -30,7 +30,7 @@ public class Ex6_3 {
         System.out.println( "Changing radius to 5..." );
         circle.setRadius( 5 );
         
-        System.out.println( circle );
+        System.out.println( circle ); 
         System.out.println( "Circumference: " + circle.circumference() );
         System.out.println( "Area: " + circle.area() );
  
