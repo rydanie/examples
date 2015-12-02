@@ -24,7 +24,7 @@ public class Ex8_1 {
         String inputString;
         int inputInt;
         
-        while( myFile.exists() ) {
+        while( myFile.exists() ) { // input validation needed stops damage
             System.out.print( myFile.getName() + " exists. New name: " );
             inputString = keybd.nextLine();
             myFile = new File( inputString );
